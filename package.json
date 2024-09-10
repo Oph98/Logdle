@@ -2,7 +2,7 @@
   "name": "your-app-name",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://<your-username>.github.io/<your-repo-name>",
+  "homepage": "https://oph98.github.io/Logdle",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
