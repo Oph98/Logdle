@@ -1,38 +1,88 @@
+/* App.css */
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
 .App {
   text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, h4 {
+  margin: 10px 0;
+  color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input {
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.table {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.player-row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 5px 10px;
+  background-color: #282828;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.player-row span {
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.placeholder {
+  color: #555; /* Dark grey for placeholders */
 }
+
+.message {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.player-number {
+  margin-right: 8px;
+}
+
+.placeholder {
+  color: grey;
+}
+
+.correct-player-placeholder {
+  border: 2px solid orange; /* Subtle indicator for correct players' boxes */
+  color: grey; /* Keeps the ??? hidden */
+}
+
+/* Counters at the top of the game */
+.counters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.counters span {
+  font-size: 18px;
+  font-weight: bold;
+  color: white; /* Assuming dark mode */
+}
+
