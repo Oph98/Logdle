@@ -1,35 +1,20 @@
-export const data = {
-    raid: "Emerald Nightmare",
-    difficulty: "Normal",
-    bossFight: "Il'gynoth",
-    players: [
-      { name: "Micaíah", role: "dps", class: "hunter", dps: 205647, rank: "blue" },
-      { name: "Bànânè", role: "dps", class: "deathknight", dps: 198838, rank: "purple" },
-      { name: "Muid", role: "dps", class: "hunter", dps: 197061, rank: "purple" },
-      { name: "Kónan", role: "dps", class: "rogue", dps: 195607, rank: "purple" },
-      { name: "Tschîbo", role: "dps", class: "druid", dps: 190122, rank: "blue" },
-      { name: "Synesta", role: "dps", class: "demonhunter", dps: 186639, rank: "purple"  },
-      { name: "Herrenlos", role: "dps", class: "monk", dps: 172113, rank: "blue" },
-      { name: "Apollonarys", role: "dps", class: "demonhunter", dps: 171107, rank: "purple" },
-      { name: "Cadifa", role: "dps", class: "shaman", dps: 166370, rank: "blue" },
-      { name: "Weakness", role: "dps", class: "warlock", dps: 161725, rank: "blue" },
-      { name: "Nightpaw", role: "dps", class: "monk", dps: 153417, rank: "green" },
-      { name: "Nefarel", role: "dps", class: "hunter", dps: 148171, rank: "green" },
-      { name: "Âhrí", role: "dps", class: "mage", dps: 118169, rank: "grey" },
-      { name: "Kolbin", role: "dps", class: "paladin", dps: 108255, rank: "green" },
-      { name: "Lolfury", role: "dps", class: "shaman", dps: 107797, rank: "grey" },
-      { name: "Jaeni", role: "dps", class: "hunter", dps: 93664, rank: "grey" },
-      { name: "Draktan", role: "dps", class: "deathknight", dps: 77626, rank: "grey" },
-      { name: "Minziminz", role: "dps", class: "warlock", dps: 72149, rank: "grey" },
-      { name: "Syranâ", role: "dps", class: "mage", dps: 66270, rank: "grey" },
-      { name: "Mísae", role: "dps", class: "druid", dps: 54747, rank: "green" },
-      { name: "Dankdash", role: "tank", class: "demonhunter", dps: 118857, rank: "purple" },
-      { name: "Tritzär", role: "tank", class: "warrior", dps: 94377, rank: "purple" },
-      { name: "Lazorgun", role: "heal", class: "shaman", dps: 131314, rank: "purple" },
-      { name: "Lionlas", role: "heal", class: "paladin", dps: 105530, rank: "green" },
-      { name: "Maudado", role: "heal", class: "shaman", dps: 80267, rank: "grey" },
-      { name: "Thaquil", role: "heal", class: "druid", dps: 75029, rank: "grey" },
-      { name: "Ariyá", role: "heal", class: "druid", dps: 54387, rank: "grey" },
-      { name: "Medìkit", role: "heal", class: "priest", dps: 34926, rank: "grey" }
-    ]
-  };
+export const players = [
+  // DPS
+  { id: 1, name: "Jacksta", role: "dps", classColor: "#8788EE", class: "warlock", dps: 42047, rank: 1, rankColor: "orange" },
+  { id: 2, name: "Bànânè", role: "dps", classColor: "#C41E3A", class: "deathknight", dps: 34558, rank: 2, rankColor: "green" },
+  { id: 3, name: "Kildarie", role: "dps", classColor: "#C79C6E", class: "warrior", dps: 34236, rank: 3, rankColor: "green" },
+  { id: 4, name: "Micaíah", role: "dps", classColor: "#A9D271", class: "hunter", dps: 32812, rank: 4, rankColor: "blue" },
+  { id: 5, name: "Gêras", role: "dps", classColor: "#F48CBA", class: "paladin", dps: 30528, rank: 5, rankColor: "green"  },
+  { id: 6, name: "Muid", role: "dps", classColor: "#A9D271", class: "hunter", dps: 30448, rank: 6, rankColor: "green"  },
+  { id: 7, name: "Darharg", role: "dps", classColor: "#8788EE", class: "warlock", dps: 29738, rank: 7, rankColor: "green"  },
+  { id: 8, name: "Weakkness", role: "dps", classColor: "#8788EE", class: "warlock", dps: 24869, rank: 8, rankColor: "blue"  },
+
+  // Tanks
+  { id: 9, name: "Nightpaw", role: "tank", classColor: "#00FF98", class: "monk", dps: 27785, rank: 1, rankColor: "purple"   },
+  { id: 10, name: "Tritzär", role: "tank", classColor: "#C79C6E", class: "warrior", dps: 22231, rank: 2, rankColor: "green"   },
+
+  // Healers
+  { id: 11, name: "Lazorgun", role: "healer", classColor: "#0070DE", class: "shaman", dps: 30385, rank: 1, rankColor: "purple" },
+  { id: 12, name: "Gwèn", role: "healer", classColor: "#F48CBA", class: "paladin", dps: 25466, rank: 2, rankColor: "blue" },
+  { id: 13, name: "Zæjin", role: "healer", classColor: "#FF7C0A", class: "druid", dps: 24939, rank: 3, rankColor: "green" },
+];

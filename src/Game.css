@@ -1,0 +1,128 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.player-list, .table {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.player-list {
+  width: 30%;
+  height: 500px;
+  overflow-y: auto;
+  border: 2px solid #444;
+  background-color: #1c1c1e;
+}
+
+.table {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #444;
+  background-color: #1c1c1e;
+  border-radius: 5px;
+  gap: 20px; /* Adds some space between the tables */
+}
+
+.remaining-players {
+  width: 20%;
+  padding-right: 20px;
+}
+
+.player-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  background-color: #282828;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #555;
+}
+
+.player-item.dragging {
+  opacity: 0.5;
+}
+
+.table-slot {
+  padding: 10px;
+  background-color: #333;
+  border: 2px dashed #555;
+  min-height: 50px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.table-slot.filled {
+  background-color: #444;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.dps-table, .tanks-table, .heals-table {
+  width: 30%;
+  text-align: center;
+}
+
+.rank-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px; /* Space between the player and DPS box */
+}
+
+.rank-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  border: 2px dashed #444;
+  color: white;
+  padding: 0 10px;
+  background-color: #333;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+}
+
+.rank-box .player-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.rank-box .rank {
+  font-weight: bold;
+}
+
+.rank-box .name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.rank-box.hover {
+  background-color: #444;
+}
+
+.dps-number {
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  border: 2px solid #444;
+  background-color: #1c1c1e;
+  border-radius: 5px;
+}
