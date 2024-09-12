@@ -12,12 +12,12 @@ export const players = [
   { id: 10, name: "Weakness", role: "dps", classColor: "#8788EE", class: "warlock", dps: 5470, rank: 10, rankColor: "grey"  },
 
   // Tanks
-  { id: 9, name: "Tritzär", role: "tank", classColor: "#C79C6E", class: "warrior", dps: 26322, rank: 1, rankColor: "purple"   },
-  { id: 10, name: "Nightpaw", role: "tank", classColor: "#00FF98", class: "monk", dps: 18807, rank: 2, rankColor: "green"   },
+  { id: 11, name: "Tritzär", role: "tank", classColor: "#C79C6E", class: "warrior", dps: 26322, rank: 1, rankColor: "purple"   },
+  { id: 12, name: "Nightpaw", role: "tank", classColor: "#00FF98", class: "monk", dps: 18807, rank: 2, rankColor: "green"   },
 
 
   // Healers
-  { id: 11, name: "Lionlas", role: "healer", classColor: "#F48CBA", class: "paladin", dps: 59716, rank: 1, rankColor: "purple" },
-  { id: 12, name: "Lazorgun", role: "healer", classColor: "#0070DE", class: "shaman", dps: 55231, rank: 2, rankColor: "purple" },
-  { id: 13, name: "Aríya", role: "healer", classColor: "#FF7C0A", class: "druid", dps: 38447, rank: 3, rankColor: "blue" },
-];
+  { id: 13, name: "Lionlas", role: "healer", classColor: "#F48CBA", class: "paladin", dps: 59716, rank: 1, rankColor: "purple" },
+  { id: 14, name: "Lazorgun", role: "healer", classColor: "#0070DE", class: "shaman", dps: 55231, rank: 2, rankColor: "purple" },
+  { id: 15, name: "Aríya", role: "healer", classColor: "#FF7C0A", class: "druid", dps: 38447, rank: 3, rankColor: "blue" },
+]
