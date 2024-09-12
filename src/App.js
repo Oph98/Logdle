@@ -17,7 +17,7 @@ function shuffleArray(array) {
 
 function App() {
   const initialCurrentTable = {
-    dps: Array(10).fill(null),
+    dps: Array(9).fill(null),
     tank: Array(2).fill(null),
     healer: Array(3).fill(null),
   };
