@@ -17,7 +17,7 @@ function shuffleArray(array) {
 
 function App() {
   const initialCurrentTable = {
-    dps: Array(8).fill(null),
+    dps: Array(10).fill(null),
     tank: Array(2).fill(null),
     healer: Array(3).fill(null),
   };
@@ -75,7 +75,7 @@ function App() {
       <div className="app-container">
         <header className="header">
           <h1>LOGDLE</h1>
-          <h1>BRF | Zugführer Thogar | Normal</h1>
+          <h1>HFC | Gorefiend | Normal</h1>
         </header>
         <div className="game-container">
           <Game
