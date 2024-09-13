@@ -18,5 +18,5 @@ export const players = [
   // Healers
   { id: 12, name: "Cowstange", role: "healer", classColor: "#00FF98", class: "monk", dps: 29135, rank: 1, rankColor: "purple" },
   { id: 13, name: "Fetzig", role: "healer", classColor: "#F48CBA", class: "paladin", dps: 23627, rank: 2, rankColor: "purple" },
-  { id: 14, name: "Chromcast", role: "healer", classColor: "#FF7C0A", class: "druid", dps: 21856, rank: 3, rankColor: "green" },
+  { id: 14, name: "Chromcast", role: "healer", classColor: "#33937F", class: "evoker", dps: 21856, rank: 3, rankColor: "green" },
 ]
