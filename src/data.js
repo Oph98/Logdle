@@ -1,22 +1,22 @@
 export const players = [
   // DPS
-  { id: 1, name: "Khoron", role: "dps", classColor: "#A9D271", class: "hunter", dps: 57768, rank: 1, rankColor: "orange" },
-  { id: 2, name: "Kónan", role: "dps", classColor: "#FFF468", class: "rogue", dps: 50723, rank: 2, rankColor: "orange" },
-  { id: 3, name: "Muid", role: "dps", classColor: "#A9D271", class: "hunter", dps: 48652, rank: 3, rankColor: "purple" },
-  { id: 4, name: "Micaíah", role: "dps", classColor: "#A9D271", class: "hunter", dps: 45455, rank: 4, rankColor: "blue" },
-  { id: 5, name: "Âhrí", role: "dps", classColor: "#3FC7EB", class: "mage", dps: 44700, rank: 5, rankColor: "blue"  },
-  { id: 6, name: "Apollonaris", role: "dps", classColor: "#3FC7EB", class: "mage", dps: 35741, rank: 6, rankColor: "green"  },
-  { id: 7, name: "Bànânè", role: "dps", classColor: "#C41E3A", class: "deathknight", dps: 34293, rank: 7, rankColor: "blue"  },
-  { id: 8, name: "Bogrod", role: "dps", classColor: "#FFFFFF", class: "priest", dps: 31901, rank: 8, rankColor: "purple"  },
-  { id: 9, name: "Weakness", role: "dps", classColor: "#8788EE", class: "warlock", dps: 5470, rank: 9, rankColor: "grey"  },
+  { id: 1, name: "Ephx", role: "dps", classColor: "#FF7C0A", class: "druid", dps: 102863, rank: 1, rankColor: "orange" },
+  { id: 2, name: "Bànâné", role: "dps", classColor: "#0070DE", class: "shaman", dps: 74652, rank: 2, rankColor: "blue" },
+  { id: 3, name: "Micaia", role: "dps", classColor: "#FFFFFF", class: "priest", dps: 70997, rank: 3, rankColor: "blue" },
+  { id: 4, name: "Curseofcum", role: "dps", classColor: "#8788EE", class: "warlock", dps: 70402, rank: 4, rankColor: "purple" },
+  { id: 5, name: "Alucrá", role: "dps", classColor: "#FFF468", class: "rogue", dps: 61518, rank: 5, rankColor: "green"  },
+  { id: 6, name: "Turteltucke", role: "dps", classColor: "#A330C9", class: "demonhunter", dps: 61195, rank: 6, rankColor: "blue"  },
+  { id: 7, name: "Deinofor", role: "dps", classColor: "#C41E3A", class: "deathknight", dps: 58520, rank: 7, rankColor: "blue"  },
+  { id: 8, name: "Nareti", role: "dps", classColor: "#A9D271", class: "hunter", dps: 46649, rank: 8, rankColor: "grey"  },
+  { id: 9, name: "Toadlover", role: "dps", classColor: "#3FC7EB", class: "mage", dps: 19703, rank: 9, rankColor: "grey"  },
 
   // Tanks
-  { id: 10, name: "Tritzär", role: "tank", classColor: "#C79C6E", class: "warrior", dps: 26322, rank: 1, rankColor: "purple"   },
-  { id: 11, name: "Nightpaw", role: "tank", classColor: "#00FF98", class: "monk", dps: 18807, rank: 2, rankColor: "green"   },
+  { id: 10, name: "Däbblejämp", role: "tank", classColor: "#A330C9", class: "demonhunter", dps: 41781, rank: 1, rankColor: "blue"   },
+  { id: 11, name: "Tritzär", role: "tank", classColor: "#C79C6E", class: "warrior", dps: 33940, rank: 2, rankColor: "blue"   },
 
 
   // Healers
-  { id: 12, name: "Lionlas", role: "healer", classColor: "#F48CBA", class: "paladin", dps: 59716, rank: 1, rankColor: "purple" },
-  { id: 13, name: "Lazorgun", role: "healer", classColor: "#0070DE", class: "shaman", dps: 55231, rank: 2, rankColor: "purple" },
-  { id: 14, name: "Aríya", role: "healer", classColor: "#FF7C0A", class: "druid", dps: 38447, rank: 3, rankColor: "blue" },
+  { id: 12, name: "Cowstange", role: "healer", classColor: "#00FF98", class: "monk", dps: 29135, rank: 1, rankColor: "purple" },
+  { id: 13, name: "Fetzig", role: "healer", classColor: "#F48CBA", class: "paladin", dps: 23627, rank: 2, rankColor: "purple" },
+  { id: 14, name: "Chromcast", role: "healer", classColor: "#FF7C0A", class: "druid", dps: 21856, rank: 3, rankColor: "green" },
 ]
