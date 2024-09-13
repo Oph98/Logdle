@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Logdle/static/css/main.14e93a9b.css",
-    "main.js": "/Logdle/static/js/main.f91e2a13.js",
+    "main.js": "/Logdle/static/js/main.cbe9a797.js",
     "static/js/488.b6631d2d.chunk.js": "/Logdle/static/js/488.b6631d2d.chunk.js",
     "index.html": "/Logdle/index.html",
     "main.14e93a9b.css.map": "/Logdle/static/css/main.14e93a9b.css.map",
-    "main.f91e2a13.js.map": "/Logdle/static/js/main.f91e2a13.js.map",
+    "main.cbe9a797.js.map": "/Logdle/static/js/main.cbe9a797.js.map",
     "488.b6631d2d.chunk.js.map": "/Logdle/static/js/488.b6631d2d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14e93a9b.css",
-    "static/js/main.f91e2a13.js"
+    "static/js/main.cbe9a797.js"
   ]
 }
