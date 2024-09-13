@@ -75,7 +75,7 @@ function App() {
       <div className="app-container">
         <header className="header">
           <h1>LOGDLE</h1>
-          <h1>HFC | Gorefiend | Normal</h1>
+          <h1>VotI | The Primal Council | Normal</h1>
         </header>
         <div className="game-container">
           <Game
